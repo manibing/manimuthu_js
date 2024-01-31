@@ -1,0 +1,75 @@
+.container{
+display:grid;
+grid-column: 0.5fr 1fr;
+box-shadow: 2px 2px 2px 2px;
+border-radius: 2px;
+height: 100%;
+}
+body{
+    background-color: aliceblue;
+}
+
+.header{
+    flex:1;
+text-align: center;
+background-color: aquamarine;
+color:black;
+border-bottom: 20px;
+
+}
+.projects-container{
+    padding-top: 0px;
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+    width:fit-content;
+    padding-left: 200px;
+    background-color: white;
+}
+.projects-container1{
+    display:flex;
+    width:auto;
+    padding-top: 0px;
+    padding-left: 200px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+ul {
+    padding-top: 40px;
+    padding-left: 0px;
+    gap: 0%;
+}
+.projects-container >div{
+position: absolute;
+padding-left: 20px;
+row-gap: 10px;
+}
+.projects-container1 >div{
+    position: absolute;
+    padding-left: 20px;
+    row-gap: 10px;
+    }
+#container{
+    align-items: center;
+}
+#button1{
+   margin-left: 20px;
+}
+#button2{
+    margin-left: 300px;
+}
+input{
+   margin-left: 380px;
+}
+#left-display{
+ background-color: pink;
+ width:fit-content;
+ margin-top: -700px;
+ margin-bottom: 50px;
+ width:min-content;
+}
+
+#left-display>ul li{
+    padding: 5px 0 5px 5px;
+    gap: 0%;
+}

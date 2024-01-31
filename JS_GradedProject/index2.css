@@ -1,0 +1,23 @@
+#container1{
+text-align: center;
+background-color: aquamarine;
+color:black;
+border-bottom: 20px;
+}
+body{
+    background-color:aliceblue;
+}
+.container{
+    display:grid;
+    grid-column: 0.5fr 1fr;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 2px;
+    height: 100%;
+    }
+#left-display{
+        background-color: pink;
+        width:fit-content;
+        margin-top: -700px;
+        margin-bottom: 50px;
+        width:min-content;
+       }
